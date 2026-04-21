@@ -1,3 +1,4 @@
 data/
 pneumonia_detection/
 __pycache__/
+models/

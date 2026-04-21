@@ -24,7 +24,7 @@ class GradCAM:
         device: torch device
         """
         self.model.zero_grad()
-        output = self.model(img_tensor.to(device))
+        output = self.model(img_tensor.to(device)).squeeze()
 
         output.backward()
 

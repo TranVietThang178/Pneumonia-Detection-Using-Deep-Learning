@@ -1,4 +1,4 @@
-# Comparative Analysis of Deep Learning Models for Pneumonia Detection Using Chest X-Ray Images
+# Deep Learning-Based Pneumonia Classification from Chest Radiographs with Grad-CAM Interpretability
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.13-orange)](https://pytorch.org/)

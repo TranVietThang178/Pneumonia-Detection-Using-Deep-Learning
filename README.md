@@ -1,4 +1,4 @@
-# Comparative Analysis of Deep Learning Models for Pneumonia Detection Using Chest X-Ray Images
+# Deep Learning-Based Pneumonia Classification from Chest Radiographs with Grad-CAM Interpretability
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.13-orange)](https://pytorch.org/)
@@ -12,7 +12,7 @@
 
 ## Overview
 
-This project develops and evaluates three deep learning architectures — **ResNet-50**, **DenseNet-121**, and **EfficientNet-B0** — for automated pneumonia detection from chest X-ray (CXR) images. Transfer learning is applied to all three models, and **Grad-CAM** visualisations are used to interpret model decisions by highlighting the image regions most influential to each prediction.
+This project develops and evaluates three deep learning architectures - **ResNet-50**, **DenseNet-121**, and **EfficientNet-B0** - for automated pneumonia detection from chest X-ray (CXR) images. Transfer learning is applied to all three models, and **Grad-CAM** visualisations are used to interpret model decisions by highlighting the image regions most influential to each prediction.
 
 All three models achieve strong diagnostic performance with AUC-ROC exceeding 99%, with **DenseNet-121 achieving the best Recall at 97.0%**, making it the most clinically reliable model for this task.
 
@@ -126,7 +126,7 @@ Run the notebooks **in order**:
 
 - **Loss function:** BCEWithLogitsLoss with class weights to handle class imbalance
 - **Optimiser:** AdamW with weight decay of 1e-4
-- **Learning rates:** Differential — 1e-4 for pretrained layers, 1e-3 for classifier heads
+- **Learning rates:** Differential - 1e-4 for pretrained layers, 1e-3 for classifier heads
 - **Scheduler:** ReduceLROnPlateau (factor=0.1, patience=3)
 - **Early stopping:** Patience of 7 epochs
 - **Batch size:** 32

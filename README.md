@@ -22,9 +22,9 @@ All three models achieve strong diagnostic performance with AUC-ROC exceeding 99
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |---|---|---|---|---|---|
-| ResNet-50 | 96.4% | 99.0% | 95.9% | 97.5% | **99.7%** |
-| **DenseNet-121** | **96.9%** | 98.7% | **97.0%** | **97.9%** | 99.6% |
-| EfficientNet-B0 | 95.8% | **99.2%** | 95.0% | 97.1% | 99.6% |
+| ResNet-50 | 96.0% | 98.6% | 95.9% | 97.2% | 99.6% |
+| **DenseNet-121** | **97.3%** | 98.7% | **97.5%** | **98.1%** | **99.7%** |
+| EfficientNet-B0 | 96.7% | **99.2%** | 96.3% | 97.7% | 99.7% |
 
 ---
 
